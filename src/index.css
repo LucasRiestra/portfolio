@@ -49,3 +49,17 @@ h3 {
   width: 100%;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(255,255,255,0) 10%, rgba(255,255,255,0) 90%, rgba(0, 0, 0, 0.5) 100%);
 }
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+}
+::-webkit-scrollbar-track {
+  background: #071b32;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(5 29 116);
+  border-radius: 0.3rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(7 29 105);
+}
