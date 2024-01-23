@@ -16,13 +16,12 @@
 .profile-picture img{
     margin-top: 2vh;
     width: 90%;
-    border-radius: 60%;
-    opacity: 0.8;
+    border-radius: 20px;
     box-shadow: 5px 5px 10px rgb(0, 0, 0);
 }
 
-.profile-picture img:hover{
-    opacity: 0.9;
+.container-navbar a {
+    transition: 0.2s;
 }
 
 .title{
@@ -30,11 +29,7 @@
 }
 
 .subtitle{
-    color: rgb(205, 231, 255);
-}
-
-.title:hover, .subtitle:hover{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .linkedin-icon {
@@ -47,6 +42,7 @@
 .icon {
     color: rgba(255, 255, 255, 0.6);
     font-size: 2.5vh;
+    transition: 0.2s;
 }
 
 .icon:hover {

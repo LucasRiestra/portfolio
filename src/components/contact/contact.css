@@ -5,10 +5,6 @@
   text-align: center;
 }
 
-.contact-title:hover {
-  color: white;
-}
-
 .contact-section {
   margin-top: 10vh;
   margin-bottom: 10vh;
@@ -17,22 +13,24 @@
 .contact-information{
     text-align: center;
     text-decoration: none;
-    color: rgb(205, 231, 255);
+    color: rgb(255, 255, 255);
     margin-bottom: 2vh;
 }
 
-.contact-information:hover {
-    color: white;
-}
+.contact-information h3 a:hover{
+    color: rgb(20, 196, 255);
+    transition: 0.2s;
+  }
+
+  .contact-information h3 a{
+    transition: 0.2s;
+  }
 
 a {
     text-decoration: none;
-    color: rgb(205, 231, 255);
+    color: rgb(255, 255, 255);
 }
 
-a:hover {
-    color: white;
-}
 
 @media (min-width: 500px) and (max-width: 900px) {
   .contact-section {

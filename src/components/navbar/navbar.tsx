@@ -14,11 +14,11 @@ const Navbar = ({ scrollToRef, experienceRef, projectsRef, skillsRef, contactRef
     return (
         <nav className="navbar">
         <div className="container-navbar">
-            <Link to="/experience" className="experience" onClick={() => scrollToRef(experienceRef)}>Experience</Link>
-            <Link to="/projects" className="projects" onClick={() => scrollToRef(projectsRef)}>Projects</Link>
+            <Link to="/experience" className="experience" onClick={() => scrollToRef(experienceRef)}>Experiencia</Link>
+            <Link to="/projects" className="projects" onClick={() => scrollToRef(projectsRef)}>Proyectos</Link>
             <Link to="/skill" className="skills" onClick={() => scrollToRef(skillsRef)}>Skills</Link>
-            <Link to="/contact" className="contact" onClick={() => scrollToRef(contactRef)}>Contact</Link>
-            <Link to="/about" className="about" onClick={() => scrollToRef(aboutRef)}>About</Link>
+            <Link to="/contact" className="contact" onClick={() => scrollToRef(contactRef)}>Contacto</Link>
+            <Link to="/about" className="about" onClick={() => scrollToRef(aboutRef)}>Sobre Mí</Link>
         </div>
         </nav>
     );
