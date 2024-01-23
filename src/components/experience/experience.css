@@ -1,0 +1,100 @@
+.experience-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: start; 
+    gap: 2vh;
+    margin-top: 10vh;
+}
+
+.profile-picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-picture img{
+    margin-top: 2vh;
+    width: 90%;
+    border-radius: 60%;
+    opacity: 0.8;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.profile-picture img:hover{
+    opacity: 0.9;
+}
+
+.title{
+    color: rgb(205, 231, 255);
+}
+
+.subtitle{
+    color: rgb(205, 231, 255);
+}
+
+.title:hover, .subtitle:hover{
+    color: white;
+}
+
+.linkedin-icon {
+    display: flex;
+    flex-direction: space-between;
+    margin-top: 3vh;
+    gap: 2vh;
+}
+
+.icon {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 2.5vh;
+}
+
+.icon:hover {
+    color: white;
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+    .experience-grid{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
+        gap: 2vh;
+        margin-top: 10vh;
+        text-align: center;
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
+
+    .profile-picture {
+        width: 50%;
+        height: 50%;
+    }
+
+    .subtitle{
+        font-size: 2.5vh;
+    }
+  }
+
+  @media (min-width: 390px) and (max-width: 844px) {
+    .experience-grid{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
+        gap: 2vh;
+        margin-top: 10vh;
+        text-align: center;
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
+
+    .profile-picture {
+        width: 50%;
+        height: 50%;
+    }
+
+    .subtitle{
+        font-size: 2.5vh;
+    }
+  }

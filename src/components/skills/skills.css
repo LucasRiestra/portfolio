@@ -1,0 +1,33 @@
+.skills-title{
+    color: rgb(205, 231, 255);
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+    text-align: center;
+}
+
+.skills-title:hover{
+    color: white;
+}
+
+.skills-section{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    place-items: center;
+}
+
+.skill-icon {
+    display: flex;
+    width: 40%;
+    height: auto;
+}
+
+.skill-icon:hover {
+    transform: scale(2);
+    transition: 0.5s;
+}

@@ -1,0 +1,35 @@
+.contact-title {
+  color: rgb(205, 231, 255);
+  margin-top: 10vh;
+  margin-bottom: 2vh;
+  text-align: center;
+}
+
+.contact-title:hover {
+  color: white;
+}
+
+.contact-section {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.contact-information{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(205, 231, 255);
+    margin-bottom: 2vh;
+}
+
+.contact-information:hover {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(205, 231, 255);
+}
+
+a:hover {
+    color: white;
+}

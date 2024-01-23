@@ -1,0 +1,34 @@
+.about-title{
+    text-align: center;
+    color: rgb(205, 231, 255);
+}
+
+.about-title:hover{
+    color: white;
+}
+
+.about-information{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(205, 231, 255);
+    margin-bottom: 2vh;
+}
+
+.about-section{
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+    .about-section{
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
+  }
+
+    @media (min-width: 390px) and (max-width: 844px) {
+        .about-section{
+            margin-left: 2vh;
+            margin-right: 2vh;
+        }
+    }
