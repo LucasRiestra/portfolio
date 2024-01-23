@@ -21,14 +21,14 @@
 
 @media (min-width: 500px) and (max-width: 900px) {
     .about-section{
-        margin-left: 2vh;
-        margin-right: 2vh;
+        margin-left: 1vh;
+        margin-right: 1vh;
     }
   }
 
     @media (min-width: 390px) and (max-width: 844px) {
         .about-section{
-            margin-left: 2vh;
-            margin-right: 2vh;
+            margin-left: 1vh;
+            margin-right: 1vh;
         }
     }
