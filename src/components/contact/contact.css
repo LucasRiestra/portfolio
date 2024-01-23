@@ -33,3 +33,17 @@ a {
 a:hover {
     color: white;
 }
+
+@media (min-width: 500px) and (max-width: 900px) {
+  .contact-section {
+    margin-left: 2vh;
+    margin-right: 2vh;
+  }
+}
+
+@media (min-width: 390px) and (max-width: 844px) {
+  .contact-section {
+    margin-left: 2vh;
+    margin-right: 2vh;
+  }
+}
