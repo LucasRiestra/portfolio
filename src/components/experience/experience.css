@@ -26,6 +26,7 @@
 
 .title{
     color: rgb(205, 231, 255);
+    font-size: 7vh;
 }
 
 .subtitle{
@@ -62,6 +63,9 @@
         margin-right: 2vh;
     }
 
+    .title{
+        font-size: 4vh;
+    }
     .profile-picture {
         width: 50%;
         height: 50%;
@@ -72,7 +76,7 @@
     }
   }
 
-  @media (min-width: 390px) and (max-width: 844px) {
+  @media (min-width: 380px) and (max-width: 844px) {
     .experience-grid{
         display: flex;
         flex-direction: column;
@@ -83,6 +87,64 @@
         text-align: center;
         margin-left: 2vh;
         margin-right: 2vh;
+    }
+
+    .title{
+        font-size: 5vh;
+    }
+
+    .profile-picture {
+        width: 50%;
+        height: 50%;
+    }
+
+    .subtitle{
+        font-size: 2.5vh;
+    }
+  }
+
+@media  (min-width: 375px) and (max-width: 389px) {
+    .experience-grid{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
+        gap: 2vh;
+        margin-top: 10vh;
+        text-align: center;
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
+
+    .title{
+        font-size: 5vh;
+    }
+
+    .profile-picture {
+        width: 50%;
+        height: 50%;
+    }
+
+    .subtitle{
+        font-size: 2.5vh;
+    }
+  }
+
+  @media (min-width: 300px) and (max-width: 389px) {
+    .experience-grid{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
+        gap: 2vh;
+        margin-top: 10vh;
+        text-align: center;
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
+
+    .title{
+        font-size: 5vh;
     }
 
     .profile-picture {

@@ -40,12 +40,20 @@
 
 @media (min-width: 500px) and (max-width: 900px) {
     .navbar{
-        width: 90%;
+        width: 95%;
     }
   }
 
 @media (min-width: 390px) and (max-width: 844px) {
     .navbar{
         width: 95%;
+    }
+  }
+
+
+@media (min-width: 300px) and (max-width: 667px) {
+    .navbar{
+        width: 95%;
+        top: 2vh;
     }
   }
