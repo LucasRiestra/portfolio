@@ -7,7 +7,10 @@ import Contact from './components/contact/contact';
 import About from './components/about/about';
 import Footer from './components/footer/footer';
 import { BrowserRouter as Router } from 'react-router-dom';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import './index.css'
+
 
 const App: FC = () => {
   const experienceRef = useRef<HTMLDivElement>(null);

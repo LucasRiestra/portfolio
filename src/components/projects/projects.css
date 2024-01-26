@@ -30,13 +30,15 @@
     opacity: 0.9;
     height: 500px;
     transition: 0.2s;
+    border-radius: 10px;
 }
 
 .project-image:hover{
     opacity: 1;
-    box-shadow: 5px 5px 10px rgba(0, 255, 217, 0.404);
+    
     transition: 0.2s;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 a{
@@ -47,6 +49,14 @@ p{
     color: rgb(255, 255, 255);
     font-size: 2vh;
     margin-bottom: 5vh;
+}
+
+.slider{
+    border-radius: 10px;
+}
+
+.slider:hover{
+    box-shadow: 5px 5px 10px rgba(0, 255, 217, 0.404);
 }
 
 @media (min-width: 500px) and (max-width: 900px) {
@@ -77,6 +87,9 @@ p{
     p{
         font-size: 2vh;
     }
+    .project-card1, .project-card2, .project-card3 {
+        width: 90%;
+      }
   }
 
   @media (min-width: 390px) and (max-width: 844px) {
@@ -107,6 +120,11 @@ p{
     p{
         font-size: 2vh;
     }
+
+    .project-card1, .project-card2, .project-card3 {
+        width: 90%;
+      }
+    
   }
 
     @media (min-width: 375px) and (max-width: 389px) {
@@ -137,6 +155,10 @@ p{
         p{
             font-size: 2vh;
         }
+
+        .project-card1, .project-card2, .project-card3 {
+            width: 90%;
+          }
     }
 
     @media (min-width: 300px) and (max-width: 389px) {
@@ -167,4 +189,9 @@ p{
         p{
             font-size: 2vh;
         }
+
+        .project-card1, .project-card2, .project-card3 {
+            width: 90%;
+          }
     }
+
