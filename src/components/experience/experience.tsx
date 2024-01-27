@@ -1,7 +1,25 @@
+import { useTranslation } from 'react-i18next';
 import './experience.css';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import '../../../i18n';
+import { FlagIcon } from 'react-flag-kit';
+import { useState } from 'react';
+
 
 const Experience = () => {
+    const { t, i18n } = useTranslation();
+    const [opacity, setOpacity] = useState(1);
+
+    const changeLanguage = (lng: string | undefined) => {
+        setOpacity(0.5);
+        localStorage.setItem('opacity', '0.5');
+        setTimeout(() => {
+            i18n.changeLanguage(lng);
+            setOpacity(1);
+            localStorage.setItem('opacity', "1");
+        }, 500);
+    };
+
     return (
         <section>
         <div className='experience-grid'>
@@ -18,12 +36,19 @@ const Experience = () => {
                     <FaGithub size='2em' />
                 </div>
                 </a>
+                <hr />
+                <div className='flag-icon' onClick={() => changeLanguage('es')}>
+                <FlagIcon code="ES"/>
+                </div>
+                <div className='flag-icon' onClick={() => changeLanguage('en')}>
+                <FlagIcon code="US"/>
+                </div>
         </div>
             </div>
             <div className='experience-information'>
-                <h1 className='title'>Hola! soy Lucas Riestra!</h1>
+                <h1 className='title' style={{ opacity: opacity, transition: 'opacity 0.5s' }}>{t("title")}</h1>
                 <br />
-                <h3 className='subtitle'>Desarrollador full-stack, nacido en Caracas, Venezuela, viviendo en España. Mi carrera en desarrollo web está en constante evolución. Especializándome tanto en Front-end como Back-end, me enfoco en el diseño web, crear interfaces atractivas, desarrollar lógica y funcionalidades eficientes para paginas web y aplicaciones. Recientemente he terminado un master de software development en "Assembler Institute of Technology", donde he adquirido la experiencia de un desarrollador full-stack en todos los aspectos.</h3>
+                <h3 className='subtitle'style={{ opacity: opacity, transition: 'opacity 0.5s' }}>{t("subtitle")}</h3>
 
             </div>
         </div>

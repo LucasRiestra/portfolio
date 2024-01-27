@@ -27,10 +27,12 @@
 .title{
     color: rgb(205, 231, 255);
     font-size: 7vh;
+    transition: 0.5s;
 }
 
 .subtitle{
     color: rgb(255, 255, 255);
+    transition: 0.5s;
 }
 
 .linkedin-icon {
@@ -43,11 +45,25 @@
 .icon {
     color: rgba(255, 255, 255, 0.6);
     font-size: 2.5vh;
-    transition: 0.2s;
+    transition: 0.5s;
 }
 
 .icon:hover {
     color: white;
+    transition: 0.5s;
+}
+
+.flag-icon img{
+    width: 4vh;
+    height: 4vh;
+    transition: 0.5s;
+    opacity: 0.5;
+    margin: 0;
+}
+
+.flag-icon img:hover{
+    opacity: 1;
+    transition: 0.5s;
 }
 
 @media (min-width: 500px) and (max-width: 900px) {

@@ -1,0 +1,18 @@
+{
+    "Experience": "Experience",
+    "Projects": "Projects",
+    "Contact": "Contact",
+    "About": "About",
+
+    "title": "Hello! I'm Lucas Riestra!",
+    "subtitle": "Full-stack developer, born in Caracas, Venezuela, living in Spain. My career in web development is constantly evolving. Specializing in both Front-end and Back-end, I focus on web design, creating attractive interfaces, developing logic and efficient functionalities for web pages and applications. I have recently completed a master's degree in software development at the 'Assembler Institute of Technology', where I have acquired the experience of a full-stack developer in all aspects.",
+
+    "my Projects": "My Projects",
+    "descriptionSonus": "Sonus is an advanced web-based music player application, with a client built using React with TypeScript and a server built with NodeJS, Prisma, and a database built on MongoDB. With a lovely combination of features , Sonus presents itself as your ultimate musical companion, allowing you to immerse yourself in the world of music. Let's explore what Sonus has to offer!.",
+    "descriptionE-commerce": "LaCaie Vintage is a vintage clothing e-commerce platform, where you can embark on a journey through decades of style, shop efficiently, and rediscover fashion classics that never go out of style. 🎉 This platform is designed with Figma and built on a combination of modern technologies, including React, TypeScript, HTML5 and CSS3. We have leveraged the capabilities of these tools to create a smooth and enjoyable shopping experience.",
+    "descriptionMovieHub":"CineXpress allows you to save your favorite movies with details such as name, photo, custom score and genre. Explore your movies with this application built in Next.js with TypeScript, with the frontend deployed in Vercel and the backend in Railway. The entire design was first made with Figma. The backend is developed with Node.js and Prisma, it also uses a database in MongoDB to store the information. Enjoy the magic of cinema with CineXpress!",
+
+    "contactMe": "Contact Me",
+    "aboutMe": "About Me",
+    "aboutMeParagraph": "I speak native Spanish and technical English, which facilitates communication and collaboration in international environments. In addition to my technical experience, I have soft skills such as effective communication, ability to lead teams and solve problems efficiently. In my free time, I enjoy football, both watching and playing it, and I also have a passion for video games. As a full stack developer, I am passionate about creating functional and beautifully designed applications, and I am constantly looking for new technologies to learn. I am excited for the opportunities that web development has to offer and I am ready to continue growing and contributing to the technological world!"
+  }

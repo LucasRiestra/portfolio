@@ -1,9 +1,11 @@
 import "./contact.css"
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+    const { t } = useTranslation();
     return (
         <section className="contact-section">
-            <h1 className="contact-title">Contáctame</h1>
+            <h1 className="contact-title">{t("contactMe")}</h1>
             <div className="contact-grid">
                 <div className="contact-information">
                     <h3>Email: Lucas.riestra94@gmail.com</h3>
