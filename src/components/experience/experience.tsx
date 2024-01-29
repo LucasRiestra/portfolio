@@ -36,7 +36,7 @@ const Experience = () => {
                     <FaGithub size='2em' />
                 </div>
                 </a>
-                <hr />
+                <hr className='hr'/>
                 <div className='flag-icon' onClick={() => changeLanguage('es')}>
                 <FlagIcon code="ES"/>
                 </div>

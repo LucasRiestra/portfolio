@@ -37,9 +37,9 @@
 
 .linkedin-icon {
     display: flex;
-    flex-direction: space-between;
-    margin-top: 3vh;
+    margin-top: 2vh;
     gap: 2vh;
+    align-items: center;
 }
 
 .icon {
@@ -65,6 +65,10 @@
     opacity: 1;
     transition: 0.5s;
     cursor: pointer;
+}
+
+.hr{
+    height: 20px;
 }
 
 @media (min-width: 500px) and (max-width: 900px) {

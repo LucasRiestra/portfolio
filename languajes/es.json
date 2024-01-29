@@ -2,7 +2,7 @@
     "Experience": "Experiencia",
     "Projects": "Proyectos",
     "Contact": "Contacto",
-    "About": "Sobre mi",
+    "About": "Sobre mí",
 
     "title": "Hola! soy Lucas Riestra!",
     "subtitle": "Desarrollador full-stack, nacido en Caracas, Venezuela, viviendo en España. Mi carrera en desarrollo web está en constante evolución. Especializándome tanto en Front-end como Back-end, me enfoco en el diseño web, crear interfaces atractivas, desarrollar lógica y funcionalidades eficientes para paginas web y aplicaciones. Recientemente he terminado un master de software development en 'Assembler Institute of Technology', donde he adquirido la experiencia de un desarrollador full-stack en todos los aspectos.",
@@ -12,8 +12,8 @@
     "descriptionE-commerce": "LaCaie Vintage es una plataforma de comercio electrónico de ropa vintage, donde puedes embarcarte en un viaje a través de décadas de estilo, comprar de manera eficiente y redescubrir clásicos de la moda que nunca pasan de moda. 🎉 Esta plataforma está diseñada con Figma y construida sobre una combinación de tecnologías modernas, incluyendo React, TypeScript, HTML5 y CSS3. Hemos aprovechado las capacidades de estas herramientas para crear una experiencia de compra fluida y agradable.",
     "descriptionMovieHub":"CineXpress te permite guardar tus películas favoritas con detalles como nombre, foto, score personalizado y género. Explora tus películas con esta aplicación construida en Next.js con TypeScript, con el frontend desplegado en Vercel y el backend en Railway. Todo el diseño fue realizado primeramente con Figma. El backend esta desarrollado con Node.js y Prisma, ademas utiliza una base de datos en MongoDB para almacenar la información. ¡Disfruta de la magia del cine con CineXpress!",
 
-    "contactMe": "Contactame",
-    "aboutMe": "Sobre mi",
+    "contactMe": "Contáctame",
+    "aboutMe": "Sobre Mí",
     "aboutMeParagraph": "Hablo español nativo e inglés técnico, lo que facilita la comunicación y colaboración en entornos internacionales. Además de mi experiencia técnica, poseo habilidades blandas como una comunicación efectiva, capacidad para liderar equipos y resolver problemas de manera eficiente. En mi tiempo libre, disfruto del fútbol, tanto viéndolo como jugándolo, y también tengo una pasión por los videojuegos. Como desarrollador full stack, me apasiona crear aplicaciones funcionales y con bonito diseño, y estoy en constante búsqueda de nuevas tecnologías para aprender. ¡Estoy emocionado por las oportunidades que el desarrollo web tiene para ofrecer y estoy listo para seguir creciendo y contribuyendo al mundo tecnológico!"
 
   }
