@@ -13,7 +13,7 @@
     "descriptionMovieHub":"CineXpress te permite guardar tus películas favoritas con detalles como nombre, foto, score personalizado y género. Explora tus películas con esta aplicación construida en Next.js con TypeScript, con el frontend desplegado en Vercel y el backend en Railway. Todo el diseño fue realizado primeramente con Figma. El backend esta desarrollado con Node.js y Prisma, ademas utiliza una base de datos en MongoDB para almacenar la información. ¡Disfruta de la magia del cine con CineXpress!",
 
     "contactMe": "Contáctame",
-    "aboutMe": "Sobre Mí",
+    "aboutMe": "Sobre mí",
     "aboutMeParagraph": "Hablo español nativo e inglés técnico, lo que facilita la comunicación y colaboración en entornos internacionales. Además de mi experiencia técnica, poseo habilidades blandas como una comunicación efectiva, capacidad para liderar equipos y resolver problemas de manera eficiente. En mi tiempo libre, disfruto del fútbol, tanto viéndolo como jugándolo, y también tengo una pasión por los videojuegos. Como desarrollador full stack, me apasiona crear aplicaciones funcionales y con bonito diseño, y estoy en constante búsqueda de nuevas tecnologías para aprender. ¡Estoy emocionado por las oportunidades que el desarrollo web tiene para ofrecer y estoy listo para seguir creciendo y contribuyendo al mundo tecnológico!"
 
   }
