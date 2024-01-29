@@ -64,6 +64,7 @@
 .flag-icon img:hover{
     opacity: 1;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 @media (min-width: 500px) and (max-width: 900px) {
