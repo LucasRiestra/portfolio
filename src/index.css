@@ -16,6 +16,7 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url('https://res.cloudinary.com/dtqgzojs3/image/upload/v1706029909/PortfolioIMGs/space-background_sebxxy.jpg');
   background-size: cover; 
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -64,4 +65,17 @@ h3 {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(7 29 105);
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+  
+}
+
+@media (min-width: 390px) and (max-width: 844px) {
+  
+}
+
+
+@media (min-width: 300px) and (max-width: 667px) {
+
 }

@@ -54,7 +54,6 @@ const App: FC = () => {
     };
   }, []);
 
-
   return (
     <Router>
         <Navbar scrollToRef={scrollToRef} experienceRef={experienceRef} projectsRef={projectsRef} skillsRef={skillsRef} contactRef={contactRef} aboutRef={aboutRef} />
