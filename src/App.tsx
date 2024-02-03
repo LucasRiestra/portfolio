@@ -1,4 +1,4 @@
-import { FC, useRef, RefObject } from 'react'
+import { FC, useRef, RefObject, useEffect } from 'react'
 import Navbar from './components/navbar/navbar'
 import Experience from './components/experience/experience';
 import Projects from './components/projects/projects';
@@ -10,6 +10,8 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import './index.css'
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 
 const App: FC = () => {
@@ -25,6 +27,33 @@ const App: FC = () => {
       window.scrollTo({ top, behavior: 'smooth' });
     }
   }
+
+  const lastScrollTop = useRef(0);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false,
+    });
+
+    function handleScroll() {
+      const st = window.pageYOffset || document.documentElement.scrollTop;
+      if (st > lastScrollTop.current) {
+        
+        AOS.refreshHard();
+      } else {
+        
+        AOS.refreshHard(); 
+      }
+      lastScrollTop.current = st <= 0 ? 0 : st;
+    }
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
 
   return (
     <Router>

@@ -28,10 +28,10 @@ const Projects = () => {
       };
 
     return (
-        <section>
+        <section className="projects">
             <h1 className="title-projects" style={{ opacity: opacity }}>{t("my Projects")}</h1>
             <article className="project-cards">
-                <div className="project-card1">
+                <div className="project-card1" data-aos="fade-left">
                     <a href='https://sonus-music.vercel.app/' target='_blank' rel='noreferrer'>
                         <h2 className="project-title">SONUS (spotify-clone)</h2>
                     </a>
@@ -44,7 +44,7 @@ const Projects = () => {
                     </Link>
                     <p className="project-description">{t("descriptionSonus")}</p>
                 </div>
-                <div className="project-card2">
+                <div className="project-card2" data-aos="fade-right">
                     <a href='https://e-commerce-sand-phi.vercel.app/' target='_blank' rel='noreferrer'>
                         <h2 className="project-title">LaCaie-Vintage (e-commerce)</h2>
                     </a>
@@ -58,7 +58,7 @@ const Projects = () => {
 
                     <p className="project-description">{t("descriptionE-commerce")}</p>
                 </div>
-                <div className="project-card3">
+                <div className="project-card3" data-aos="fade-left">
                     <a href='https://moviehub-next-js.vercel.app/' target='_blank' rel='noreferrer'>
                         <h2 className="project-title">CineXpress (MovieHub-project)</h2>
                     </a>

@@ -2,7 +2,6 @@ import { useTranslation } from 'react-i18next';
 import './experience.css';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import '../../../i18n';
-import { FlagIcon } from 'react-flag-kit';
 import { useState } from 'react';
 
 
@@ -22,7 +21,7 @@ const Experience = () => {
 
     return (
         <section>
-        <div className='experience-grid'>
+        <div className='experience-grid' data-aos="fade-right">
             <div className='profile-picture'>
                 <img src='/assets/profile.jpg' alt='profile' />
                 <div className='linkedin-icon'>
@@ -37,11 +36,11 @@ const Experience = () => {
                 </div>
                 </a>
                 <hr className='hr'/>
-                <div className='flag-icon' onClick={() => changeLanguage('es')}>
-                <FlagIcon code="ES"/>
+                <div className='language' onClick={() => changeLanguage('es')}>
+                ES
                 </div>
-                <div className='flag-icon' onClick={() => changeLanguage('en')}>
-                <FlagIcon code="US"/>
+                <div className='language' onClick={() => changeLanguage('en')}>
+                EN
                 </div>
         </div>
             </div>

@@ -11,6 +11,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 
 .profile-picture img{
@@ -53,23 +54,26 @@
     transition: 0.5s;
 }
 
-.flag-icon img{
-    width: 4vh;
-    height: 4vh;
+.language{
+    display: flex;
+    font-size: 3vh;
+    align-items: center;
+    justify-content: center;
     transition: 0.5s;
-    opacity: 0.5;
-    margin: 0;
+    opacity: 0.6;
+    cursor: pointer;
 }
 
-.flag-icon img:hover{
-    opacity: 1;
+.language:hover{
+    color: white;
     transition: 0.5s;
-    cursor: pointer;
+    opacity: 1;
 }
 
 .hr{
     height: 20px;
 }
+
 
 @media (min-width: 500px) and (max-width: 900px) {
     .experience-grid{

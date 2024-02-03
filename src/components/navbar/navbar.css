@@ -12,7 +12,17 @@
     left: 0; 
     right: 0; 
     margin-bottom: 5vh;
+    animation: 1.5s ease-out 0s 1 slideDown;
 }
+
+@keyframes slideDown {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
 
 .container-navbar {
     display: flex;

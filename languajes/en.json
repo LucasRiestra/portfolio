@@ -5,7 +5,7 @@
     "About": "About",
 
     "title": "Hello! I'm Lucas Riestra!",
-    "subtitle": "Full-stack developer, born in Caracas, Venezuela, living in Spain. My career in web development is constantly evolving. Specializing in both Front-end and Back-end, I focus on web design, creating attractive interfaces, developing logic and efficient functionalities for web pages and applications. I have recently completed a master's degree in software development at the 'Assembler Institute of Technology', where I have acquired the experience of a full-stack developer in all aspects.",
+    "subtitle": "Full-stack developer, living in Spain. My career in web development is constantly evolving. Specializing in both Front-end and Back-end, I focus on web design, creating attractive interfaces, developing logic, efficient functionalities for web pages and applications. I have recently completed a master's degree in software development at the 'Assembler Institute of Technology', where I have acquired the experience of a full-stack developer in all aspects.",
 
     "my Projects": "My Projects",
     "descriptionSonus": "Sonus is an advanced web-based music player application, with a client built using React with TypeScript and a server built with NodeJS, Prisma, and a database built on MongoDB. With a lovely combination of features , Sonus presents itself as your ultimate musical companion, allowing you to immerse yourself in the world of music. Let's explore what Sonus has to offer!.",

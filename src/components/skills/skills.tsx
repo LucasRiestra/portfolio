@@ -5,8 +5,8 @@ import "./skills.css";
 const Skills = () => {
     return (
         <section className="skills-section">
-            <h1 className="skills-title">Tech Skills</h1>
-            <div className="skills-grid">
+            <h1 className="skills-title" data-aos="fade-right" >Tech Skills</h1>
+            <div className="skills-grid" data-aos="fade-left" >
                 <img src="https://res.cloudinary.com/dtqgzojs3/image/upload/v1706029831/PortfolioIMGs/html_jxvklq.svg" alt="Icon 1" className="skill-icon" />
                 <img src="https://res.cloudinary.com/dtqgzojs3/image/upload/v1706029829/PortfolioIMGs/css_g0kzsj.svg" alt="Icon 2" className="skill-icon" />
                 <img src="https://res.cloudinary.com/dtqgzojs3/image/upload/v1706029831/PortfolioIMGs/javascript_k3d3wj.svg" alt="Icon 3" className="skill-icon" />
