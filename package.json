@@ -21,7 +21,8 @@
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.21.3",
     "react-slick": "^0.30.1",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "tsparticles": "^3.2.1"
   },
   "devDependencies": {
     "@types/aos": "^3.0.7",

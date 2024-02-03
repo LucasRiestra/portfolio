@@ -14,6 +14,7 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 
 
+
 const App: FC = () => {
   const experienceRef = useRef<HTMLDivElement>(null);
   const projectsRef = useRef<HTMLDivElement>(null);
@@ -36,6 +37,7 @@ const App: FC = () => {
       once: false,
     });
 
+
     function handleScroll() {
       const st = window.pageYOffset || document.documentElement.scrollTop;
       if (st > lastScrollTop.current) {
@@ -52,6 +54,7 @@ const App: FC = () => {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
+
   }, []);
 
   return (
