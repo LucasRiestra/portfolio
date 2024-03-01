@@ -78,9 +78,9 @@ const Projects = () => {
                     </a>
                     <Link to={"https://luduscocktailsparty.netlify.app/"} target="_blank">
                     <Slider {...settings} className="slider">
-                    <img src="https://res.cloudinary.com/dtqgzojs3/image/upload/v1709195968/PortfolioIMGs/Captura_de_pantalla_2024-02-29_093458_cogmol.png" alt="project" className="project-image"/>
-                    <img src="https://res.cloudinary.com/dtqgzojs3/image/upload/v1709195968/PortfolioIMGs/Captura_de_pantalla_2024-02-29_093623_lclj2c.png" alt="project" className="project-image"/>
-                    <img src="https://res.cloudinary.com/dtqgzojs3/image/upload/v1709195968/PortfolioIMGs/Captura_de_pantalla_2024-02-29_093841_cf3t0y.png" alt="project" className="project-image"/>
+                    <img src="https://res.cloudinary.com/dtqgzojs3/image/upload/v1709317024/PortfolioIMGs/Captura_de_pantalla_2024-03-01_191415_kcxpmr.png" alt="project" className="project-image"/>
+                    <img src="https://res.cloudinary.com/dtqgzojs3/image/upload/v1709317024/PortfolioIMGs/Captura_de_pantalla_2024-03-01_191530_p8gl40.png" alt="project" className="project-image"/>
+                    <img src="https://res.cloudinary.com/dtqgzojs3/image/upload/v1709317024/PortfolioIMGs/Captura_de_pantalla_2024-03-01_191623_emxnfp.png" alt="project" className="project-image"/>
                     </Slider>
                     </Link>
                     
