@@ -86,6 +86,20 @@ const Projects = () => {
                     
                     <p className="project-description">{t("descriptionCocktailsApp")}</p>
                 </div>
+                <div className="project-card3" data-aos="fade-right">
+                    <a href='https://attomo-challenge-frontend.vercel.app/' target='_blank' rel='noreferrer'>
+                        <h2 className="project-title">GameVote App (search-cocktails-project)</h2>
+                    </a>
+                    <Link to={"https://attomo-challenge-frontend.vercel.app/"} target="_blank">
+                    <Slider {...settings} className="slider">
+                    <img src="https://res.cloudinary.com/dtqgzojs3/image/upload/v1710006221/Captura_de_pantalla_2024-03-09_131628_cbqoqa.png" alt="project" className="project-image"/>
+                    <img src="https://res.cloudinary.com/dtqgzojs3/image/upload/v1710006213/Captura_de_pantalla_2024-03-09_131836_aspedd.png" alt="project" className="project-image"/>
+                    <img src="https://res.cloudinary.com/dtqgzojs3/image/upload/v1710006212/Captura_de_pantalla_2024-03-09_131725_clhkhx.png" alt="project" className="project-image"/>
+                    </Slider>
+                    </Link>
+                    
+                    <p className="project-description">{t("descriptionGameVote")}</p>
+                </div>
             </article>
         </section>
     )
