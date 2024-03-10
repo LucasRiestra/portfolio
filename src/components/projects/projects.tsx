@@ -88,7 +88,7 @@ const Projects = () => {
                 </div>
                 <div className="project-card3" data-aos="fade-right">
                     <a href='https://attomo-challenge-frontend.vercel.app/' target='_blank' rel='noreferrer'>
-                        <h2 className="project-title">GameVote App (search-cocktails-project)</h2>
+                        <h2 className="project-title">GameVote App!</h2>
                     </a>
                     <Link to={"https://attomo-challenge-frontend.vercel.app/"} target="_blank">
                     <Slider {...settings} className="slider">
