@@ -58,7 +58,7 @@ const Projects = () => {
 
                     <p className="project-description">{t("descriptionE-commerce")}</p>
                 </div>
-                <div className="project-card3" data-aos="fade-right">
+                {/* <div className="project-card3" data-aos="fade-right">
                     <a href='https://moviehub-next-js.vercel.app/' target='_blank' rel='noreferrer'>
                         <h2 className="project-title">CineXpress (MovieHub-project)</h2>
                     </a>
@@ -71,7 +71,7 @@ const Projects = () => {
                     </Link>
                     
                     <p className="project-description">{t("descriptionMovieHub")}</p>
-                </div>
+                </div> */}
                 <div className="project-card3" data-aos="fade-right">
                     <a href='https://luduscocktailsparty.netlify.app/' target='_blank' rel='noreferrer'>
                         <h2 className="project-title">Cocktails App (search-cocktails-project)</h2>
@@ -86,7 +86,7 @@ const Projects = () => {
                     
                     <p className="project-description">{t("descriptionCocktailsApp")}</p>
                 </div>
-                <div className="project-card3" data-aos="fade-right">
+                {/* <div className="project-card3" data-aos="fade-right">
                     <a href='https://attomo-challenge-frontend.vercel.app/' target='_blank' rel='noreferrer'>
                         <h2 className="project-title">GameVote App!</h2>
                     </a>
@@ -99,6 +99,20 @@ const Projects = () => {
                     </Link>
                     
                     <p className="project-description">{t("descriptionGameVote")}</p>
+                </div> */}
+                <div className="project-card3" data-aos="fade-right">
+                    <a href='https://ruano-challenge.vercel.app/' target='_blank' rel='noreferrer'>
+                        <h2 className="project-title">Ruano Challenge (Movies Api)</h2>
+                    </a>
+                    <Link to={"https://ruano-challenge.vercel.app/"} target="_blank">
+                    <Slider {...settings} className="slider">
+                    <img src="https://res.cloudinary.com/dtqgzojs3/image/upload/v1715426558/PortfolioIMGs/Captura_de_pantalla_2024-05-11_131759_xuarim.png" alt="project" className="project-image"/>
+                    <img src="https://res.cloudinary.com/dtqgzojs3/image/upload/v1715426559/PortfolioIMGs/Captura_de_pantalla_2024-05-11_131831_tnkd9j.png" alt="project" className="project-image"/>
+                    <img src="https://res.cloudinary.com/dtqgzojs3/image/upload/v1715426559/PortfolioIMGs/Captura_de_pantalla_2024-05-11_131937_rbwhcz.png" alt="project" className="project-image"/>
+                    </Slider>
+                    </Link>
+                    
+                    <p className="project-description">{t("descriptionRuanoChallenge")}</p>
                 </div>
             </article>
         </section>
